@@ -9,14 +9,17 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'frontend/src'),
     },
   },
+
   server: {
     port: 3000,
     host: '0.0.0.0',
+    allowedHosts: true,
     hmr: process.env.DISABLE_HMR !== 'true',
     watch: process.env.DISABLE_HMR === 'true' ? null : {},
   },
