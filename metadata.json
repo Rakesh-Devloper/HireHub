@@ -1,0 +1,6 @@
+{
+  "name": "HireHub",
+  "description": "Dream Jobs. Real People. Complete MERN stack job portal platform for Job Seekers, Employers, and Admins.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
